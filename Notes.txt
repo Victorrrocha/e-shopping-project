@@ -1,0 +1,4 @@
+Authentication
+
+Create a redux context to save the token, login status, login and logout functions
+redux toolkit and react-redux
