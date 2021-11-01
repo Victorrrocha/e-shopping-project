@@ -39,16 +39,7 @@ const Header = () => {
                 <Toolbar>
                     <Grid container justifyContent="space-between" alignItems="center">
                         <Grid item>
-                            <Grid container alignItems="center">
-                                <IconButton 
-                                    size="large"
-                                    edge="start"
-                                    color="inherit"
-                                    aria-label="menu"
-                                    sx={{ mr: 2}}>
-                                    <MenuIcon/>
-                                </IconButton>
-                                
+                            <Grid container alignItems="center">                        
                                 <Typography 
                                     onClick={homeHandle}
                                     ariant="h2" 

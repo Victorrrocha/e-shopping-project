@@ -16,9 +16,22 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f3f3;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.content{
+  width: 100%;
+  max-width: 1200px;
+  margin: 3rem auto;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  
 }

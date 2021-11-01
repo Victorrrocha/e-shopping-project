@@ -2,3 +2,13 @@ Authentication
 
 Create a redux context to save the token, login status, login and logout functions
 redux toolkit and react-redux
+
+
+api routes
+Get all categories
+get 5 products of 6 categories to populate the main page
+get all produts to populate the the Category page
+
+future
+Create a category container based on searching pattern 
+Fill with 5 products from all visited product page categories

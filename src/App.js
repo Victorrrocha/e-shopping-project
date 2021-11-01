@@ -11,6 +11,7 @@ import { Route, Switch } from 'react-router-dom'
 import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { authActions } from './store/auth';
+import Layout from './layout/Layout';
 
 const theme = createTheme({
   
@@ -31,17 +32,19 @@ function App() {
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={theme}>
         <Header />
-        <Switch>
-          <Route path="/auth">
-            <Authentication />
-          </Route>
-          <Route path="/profile">
-            <Profile />
-          </Route>
-          <Route path="/">
-            <Home />
-          </Route>
-        </Switch>
+        <Layout>
+          <Switch>
+            <Route path="/auth">
+              <Authentication />
+            </Route>
+            <Route path="/profile">
+              <Profile />
+            </Route>
+            <Route path="/">
+              <Home />
+            </Route>
+          </Switch>
+          </Layout>
       </ThemeProvider>
     </StyledEngineProvider>
   );
